@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section .box{
+    width: 20%;
+    height: 25%;
+    /* background-color: black; */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+      /* Mobile */
+      @media (max-width:767px){
+        section .box{
+            width: 50%;
+        }
+    }
+
+  /* Smali Screens */
+    @media (min-width:768px){
+        section .box{
+            width: 25%;
+        }
+    }
+
+ /* Medium Screens */
+    @media (min-width:992px){
+        section .box{
+            width: 20%;
+        }
+    }
+
+  /*large Screens */
+    @media (min-width:1200px){
+
+    }
+section .box button{
+    padding: 8px 13px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    z-index: -8;
+    transition: all .2s ;
+}
+section .box:hover button{
+    z-index: 1;
+}
+
+section #box-1{
+    background-color: #FFC312;
+}
+section #box-2{
+    background-color: #C4E538;
+}
+section #box-3{
+    background-color: #12CBC4;
+}
+section #box-4{
+    background-color: #FDA7DF;
+}
+section #box-5{
+    background-color: #ED4C67;
+}
+section #box-6{
+    background-color: #F79F1F;
+}
+section #box-7{
+    background-color: #A3CB38;
+}
+section #box-8{
+    background-color: #1289A7;
+}
+section #box-9{
+    background-color: #D980FA;
+}
+section #box-10{
+    background-color: #B53471;
+}
+section #box-11{
+    background-color: #EE5A24;
+}
+section #box-12{
+    background-color: #009432;
+}
+section #box-13{
+    background-color: #0652DD;
+}
+section #box-14{
+    background-color: #9980FA;
+}
+section #box-15{
+    background-color: #833471;
+}
+section #box-16{
+    background-color: #EA2027;
+}
+section #box-17{
+    background-color: #006266;
+}
+section #box-18{
+    background-color: #1B1464;
+}
+section #box-19{
+    background-color: #5758BB;
+}
+section #box-20{
+    background-color: #6E1E50;
+}
